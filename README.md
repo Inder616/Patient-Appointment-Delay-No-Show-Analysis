@@ -1,81 +1,146 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
-<img src="https://img.shields.io/badge/DAX-E84646?style=for-the-badge&logo=microsoftpowerbi&logoColor=white" />
 <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" />
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+<img src="https://img.shields.io/badge/DAX-E84646?style=for-the-badge&logo=microsoftpowerbi&logoColor=white" />
+
 
 <br/><br/>
+
+```
+    ███╗   ██╗ ██████╗       ███████╗██╗  ██╗ ██████╗ ██╗    ██╗
+    ████╗  ██║██╔═══██╗      ██╔════╝██║  ██║██╔═══██╗██║    ██║
+    ██╔██╗ ██║██║   ██║█████╗███████╗███████║██║   ██║██║ █╗ ██║
+    ██║╚██╗██║██║   ██║╚════╝╚════██║██╔══██║██║   ██║██║███╗██║
+    ██║ ╚████║╚██████╔╝      ███████║██║  ██║╚██████╔╝╚███╔███╔╝
+    ╚═╝  ╚═══╝ ╚═════╝       ╚══════╝╚═╝  ╚═╝ ╚═════╝  ╚══╝╚══╝
+```
 
 # 🏥 Patient Appointment Delay & No-Show Analysis
 
 ### *Understanding delays. Improving healthcare decisions.*
 
+<br/>
+
+[![Stars](https://img.shields.io/github/stars/yourusername/patient-noshow-dashboard?style=social)](https://github.com/Inder616/Patient-Appointment-Delay-No-Show-Analysis)
+[![Forks](https://img.shields.io/github/forks/yourusername/patient-noshow-dashboard?style=social)](https://github.com/Inder616/Patient-Appointment-Delay-No-Show-Analysis)
+[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/inder-a61a57307/)
+
 </div>
 
 ---
 
-## 🔍 Project Overview
+## 🔴 What Is This?
 
-This project presents an **interactive Power BI dashboard** that analyzes how **appointment delays impact patient no-show behavior**.
+> **A fully interactive Power BI dashboard** that analyzes 111,000+ patient appointments — revealing how appointment delays, age groups, and scheduling patterns drive no-show behavior, helping healthcare providers make smarter operational decisions.
 
-The goal is to uncover patterns that help healthcare providers:
-
-- Reduce missed appointments
-- Improve scheduling efficiency
-- Identify high-risk patients
+No fluff. Pure signal.
 
 ---
 
-## 📊 Dashboard Features
+## 📊 Dashboard at a Glance
 
-| Category | Description |
-|----------|-------------|
-| 🎯 KPI Cards | Total Patients, No-Shows, No-Show %, Avg Waiting Days |
-| 📉 Delay Analysis | No-show % across Low, Medium, High delay categories |
-| 👥 Demographics | No-show % by Age Group & Gender |
-| 📅 Time Analysis | Average waiting days by weekday |
-| 📈 Trend Analysis | No-show % vs waiting time groups |
+<div align="center">
 
----
+| Metric | What It Answers |
+|--------|----------------|
+| 🎯 **KPI Cards** | How many patients? What's the no-show rate? |
+| ⏳ **Delay Analysis** | How does wait time impact no-show risk? |
+| 👥 **Demographics** | Which age groups and genders miss the most? |
+| 📅 **Day Analysis** | Which weekdays have the longest waits? |
+| 📈 **Waiting Groups** | At what point does no-show risk spike? |
+| ⚠️ **Risk Tracker** | How many patients are in the high-risk zone? |
 
-## 🚀 Key Insights
-
-- 🔴 No-show rate rises sharply after **5+ days delay**
-- 🟢 Same-day / short wait appointments have the lowest no-show rate (~9%)
-- 🟠 High-delay patients show the highest no-show risk (~31%)
+</div>
 
 ---
 
-## 💡 Business Recommendations
+## 🚀 Key Business Insights
 
-```text
-✔ Keep waiting time under 5 days
-✔ Focus on high-delay patients with proactive outreach
-✔ Use reminders (SMS / Calls) for high-risk appointments
+<table>
+<tr>
+<td width="50%">
+
+### ⏰ The 5-Day Threshold
+- No-show rate **jumps from 9% → 23%** once wait time exceeds 2 days
+- Keeping appointments **under 5 days** is the single biggest lever to reduce no-shows
+
+</td>
+<td width="50%">
+
+### 👶 Age Group Patterns
+- **Teens have the highest no-show rate (25.96%)**
+- Seniors are the most reliable — only **15.20%** miss their appointments
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 📅 Day-of-Week Effect
+- **Monday has the longest average wait (9.84 days)**
+- Saturday appointments are scheduled fastest at **3.23 days**
+
+</td>
+<td width="50%">
+
+### ⚠️ High-Risk Volume
+- **45,000 patients** fall in the high-delay category
+- High-delay patients carry a **31.47% no-show rate** — over 3× the low-delay group
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🧠 Strategic Recommendations
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  1. ⏳  Cap appointment wait time at 5 days wherever possible   │
+│  2. 📲  Send SMS/call reminders for high-delay appointments     │
+│  3. 👶  Create teen-specific outreach — highest at-risk group   │  
+└─────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Tool | Usage |
-|------|-------|
-| 📊 Power BI | Dashboard development & visualization |
-| 📐 DAX | Measures, KPIs, calculations |
-| 🔄 Power Query | Data transformation |
-| 📑 Excel | Data cleaning & validation |
-| 🐍 Python | Basic preprocessing & analysis |
+```
+Data Pipeline
+─────────────
+Excel Dataset  ──►  Python (Clean & Prep)  ──►  Power BI
+                                                   │
+                                       ┌───────────┴───────────┐
+                                  Power Query              DAX Measures
+                               (Transformations)      (No-Show %, Avg Wait)
+```
+
+| Layer | Tool | Purpose |
+|-------|------|---------|
+| 🐍 **Python** | Pandas | Data cleaning & preprocessing |
+| 📑 **Excel** | — | Raw data storage & initial validation |
+| 🔄 **Power Query** | Data Transformation | Column shaping, type fixes, filtering |
+| 📐 **DAX** | Measures | No-Show %, KPIs, risk group calculations |
+| 📊 **Power BI** | Desktop | Dashboard, visualizations, interactivity |
 
 ---
 
-## 📁 Dataset
+## 📁 Dataset Details
 
-Healthcare appointment dataset including:
+> **Source:** Healthcare appointment dataset containing patient scheduling records with attendance outcomes.
 
-- Patient details (Age, Gender)
-- Appointment delays (Waiting Days)
-- Attendance status (Show / No-show)
+**Dataset includes:**
+- Patient demographics (Age Group, Gender)
+- Appointment scheduling info (Appointment Day, Waiting Days)
+- Attendance outcome (Show / No-show)
+- Delay classification (Low / Medium / High)
+
+**⚠️ Note on Waiting Days:**
+Waiting days are calculated as the gap between scheduling date and appointment date. Patients with same-day appointments fall in the `0–1` group and have the lowest no-show rate (~9%).
 
 ---
 
@@ -85,17 +150,40 @@ Healthcare appointment dataset including:
 
 ---
 
-## ▶️ How to Use
+## ▶️ How to Run
 
 ```bash
-# Step 1: Download the .pbix file
-# Step 2: Open in Power BI Desktop
-# Step 3: Use filters (Gender, Age Group, Delay Category)
-# Step 4: Explore insights across all visuals
+# Step 1 — Clone this repo
+git clone https://github.com/yourusername/patient-noshow-dashboard.git
+
+# Step 2 — Open the dashboard
+# Launch Power BI Desktop → Open File → select the .pbix file
+
+# Step 3 — Explore
+# Use filters (Gender, Age Group, Delay Category) to slice every visual
 ```
 
 ---
 
-## 📬 Connect
+## 👤 About the Author
 
-If you found this project useful, feel free to ⭐ star the repo and connect!
+<div align="center">
+
+**Aspiring Data Analyst** passionate about transforming raw data into decisions that matter.
+
+`Excel` · `Python` · `Power BI` · `DAX` · `Healthcare Analytics`
+
+[![LinkedIn](https://img.shields.io/badge/Let's%20Connect-LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/inder-a61a57307/)
+
+</div>
+
+---
+
+<div align="center">
+
+*Built with 🎬 for the data-curious and the strategy-obsessed*
+
+⭐ **If this project helped you, drop a star!** ⭐
+
+</div>
+
