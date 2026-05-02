@@ -126,16 +126,17 @@ Excel Dataset  ──►  Python (Clean & Prep)  ──►  Power BI
 
 ## 📁 Dataset Details
 
-> **Source:** Healthcare appointment dataset containing patient scheduling records with attendance outcomes.
+> **Source:** [Healthcare appointment dataset containing patient scheduling records with attendance outcomes.](https://www.kaggle.com/datasets/joniarroba/noshowappointments?utm_source=chatgpt.com&select=KaggleV2-May-2016.csv)
 
 **Dataset includes:**
 - Patient demographics (Age Group, Gender)
-- Appointment scheduling info (Appointment Day, Waiting Days)
+- Appointment scheduling information (Appointment Day, Waiting Days)
 - Attendance outcome (Show / No-show)
 - Delay classification (Low / Medium / High)
 
 **⚠️ Note on Waiting Days:**
-Waiting days are calculated as the gap between scheduling date and appointment date. Patients with same-day appointments fall in the `0–1` group and have the lowest no-show rate (~9%).
+Waiting days represent the gap between scheduling date and appointment date. 
+Patients with same-day or short wait times (`0–1 days`) show the lowest no-show rate (~9%), indicating that shorter waiting periods improve attendance.
 
 ---
 
