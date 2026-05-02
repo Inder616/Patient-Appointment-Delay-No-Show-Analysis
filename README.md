@@ -28,7 +28,7 @@
 
 ## 🔴 What Is This?
 
-> **A fully interactive Power BI dashboard** that analyzes 111,000+ patient appointments — revealing how appointment delays, age groups, and scheduling patterns drive no-show behavior, helping healthcare providers make smarter operational decisions.
+> **A fully interactive Power BI dashboard** that analyzes 110506+ patient appointments — revealing how appointment delays, age groups, and scheduling patterns drive no-show behavior, helping healthcare providers make smarter operational decisions.
 
 No fluff. Pure signal.
 
