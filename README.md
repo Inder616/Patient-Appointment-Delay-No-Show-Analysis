@@ -143,7 +143,7 @@ Patients with same-day or short wait times (`0–1 days`) show the lowest no-sho
 ## 📸 Dashboard Preview
 
 <div align="center">
-  <img src="Image/dashboard_preview.png" width="800"/>
+  <img src="https://raw.githubusercontent.com/Inder616/Patient-Appointment-Delay-No-Show-Analysis/main/Patient%20Appointment%20Delay%20%26%20No-Show%20Analysis/Image/dashboard_preview.png" width="800"/>
 </div>
 
 ---
