@@ -143,7 +143,7 @@ Patients with same-day or short wait times (`0–1 days`) show the lowest no-sho
 ## 📸 Dashboard Preview
 
 <div align="center">
-  <img src="Image/dashboard_preview.png" alt="Dashboard" width="800"/>
+  <img src="Image/dashboard_preview.png" width="800"/>
 </div>
 
 ---
