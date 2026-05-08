@@ -18,9 +18,6 @@
 
 <br/>
 
-[![Stars](https://img.shields.io/github/stars/Inder616/Patient-Appointment-Delay-No-Show-Analysis?style=social)](https://github.com/Inder616/Patient-Appointment-Delay-No-Show-Analysis)
-[![Forks](https://img.shields.io/github/forks/Inder616/Patient-Appointment-Delay-No-Show-Analysis?style=social)](https://github.com/Inder616/Patient-Appointment-Delay-No-Show-Analysis)
-[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/inder-a61a57307/)
 
 </div>
 
